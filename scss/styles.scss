@@ -1,0 +1,44 @@
+@import "./partials/colors";
+@import url("https://fonts.googleapis.com/css?family=Dokdo");
+body {
+  margin: 0;
+  padding: 0;
+  background: $purple;
+  font-family: "Dokdo", cursive;
+}
+
+header {
+  background: $light-blue;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  padding: 1rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .input {
+    margin: 1rem;
+
+    * {
+      margin: 0rem 1rem;
+      outline: none;
+      padding: 10px;
+      font-family: "Dokdo", cursive;
+      font-size: 1.5rem;
+    }
+
+    #joke--button {
+      color: white;
+      border: 2px solid black;
+      background-color: $light-blue;
+    }
+  }
+
+  .joke--line {
+    color: white;
+    font-size: 1.5rem;
+  }
+}
